@@ -11,8 +11,7 @@ using System.Threading.Tasks;
 namespace FolderService
 {
     class LockandTransfer
-    {
-        
+    {        
         public void work(FileInfo fileInfo, string fullPath, string name)
         {
             string sub = fullPath.Substring(ConfigurationManager.AppSettings["CopyFromDir"].Length);
@@ -25,7 +24,10 @@ namespace FolderService
             {
                 if (isDir == false)
                 {
-                    bool b = CheckLock(fileInfo);
+                    //check lock Working but not looped
+                    //If working loop add here and run this to check inuse
+                    //bool b = CheckLock(fileInfo);
+
                     File.Copy(fullPath, ConfigurationManager.AppSettings["CopyToDir"] + "\\" + name);
                     s.EventLog.WriteEntry(fullPath + " copied to " + ConfigurationManager.AppSettings["CopyToDir"] + "\\" + name);
                 }
@@ -41,7 +43,25 @@ namespace FolderService
                 s.EventLog.WriteEntry("error copying files");
             }
         }
-        
+               
+        #region Workers
+        string[] findSubFolders(string sub)
+        {
+            char delimiter = '\\';
+            string[] substrings = sub.Split(delimiter);
+            return substrings;
+        }
+        bool dirCheck(string tester)
+        {
+            bool res = false;
+
+            if (Path.GetExtension(tester) == "")
+            {
+                //checks if file or DIR
+                res = true;
+            }
+            return res;
+        }
         bool CheckLock(FileInfo file)
         {
             FileStream stream = null;
@@ -65,26 +85,9 @@ namespace FolderService
             }
 
             //file is not locked
-            
 
             return false;
         }
-        string[] findSubFolders(string sub)
-        {
-            char delimiter = '\\';
-            string[] substrings = sub.Split(delimiter);
-            return substrings;
-        }
-        bool dirCheck(string tester)
-        {
-            bool res = false;
-
-            if (Path.GetExtension(tester) == "")
-            {
-                //checks if file or DIR
-                res = true;
-            }
-            return res;
-        }
+        #endregion
     }
 }
