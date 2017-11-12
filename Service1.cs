@@ -44,16 +44,16 @@ namespace FolderService
 
             bgQueue.QueueTask(() => LAT.work(fileInfo,e.FullPath,e.Name));
             
-            
         }
 
         private void fileSystemWatcher1_Deleted(object sender, System.IO.FileSystemEventArgs e)
         {
-            //not handled
+            EventLog.WriteEntry(e.FullPath + " Deleted");
         }
 
         private void fileSystemWatcher1_Renamed(object sender, System.IO.RenamedEventArgs e)
         {
+            EventLog.WriteEntry(e.OldFullPath + " Renamed to " + e.FullPath);
             //not handled
         }
     }
