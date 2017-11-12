@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration.Install;
 using System.Linq;
+using System.ServiceProcess;
 using System.Threading.Tasks;
 
 namespace FolderService
@@ -23,7 +24,8 @@ namespace FolderService
 
         private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
         {
-
+            ServiceController sc = new ServiceController("Windows Automatic Start Service");
+            sc.Start();
         }
     }
 }
