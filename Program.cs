@@ -11,6 +11,7 @@ namespace FolderService
     {
         /// <summary>
         /// The main entry point for the application.
+        /// Duh
         /// </summary>
         static void Main()
         {
