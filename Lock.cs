@@ -11,7 +11,13 @@ using System.Threading.Tasks;
 namespace FolderService
 {
     class LockandTransfer
-    {        
+    {
+        /// <summary>
+        /// On file creation file transfer checks if Folder or File and checks if Locked
+        /// </summary>
+        /// <param name="fileInfo">fileInfo of file to be checked for locked status</param>
+        /// <param name="fullPath">Full path of file being put into CopyFromDir</param>
+        /// <param name="name">Name of file from CopyFromDir</param>
         public void work(FileInfo fileInfo, string fullPath, string name)
         {
             string sub = fullPath.Substring(ConfigurationManager.AppSettings["CopyFromDir"].Length);
@@ -62,6 +68,11 @@ namespace FolderService
             }
             return res;
         }
+        /// <summary>
+        /// Checks if file is locked
+        /// </summary>
+        /// <param name="file">File to be checked for locked status</param>
+        /// <returns>True for in use, False for not in use</returns>
         bool CheckLock(FileInfo file)
         {
             FileStream stream = null;
