@@ -1,0 +1,10 @@
+C:\Users\takes\source\repos\FolderService\bin\Release\FolderService.exe.config
+C:\Users\takes\source\repos\FolderService\bin\Release\FolderService.exe
+C:\Users\takes\source\repos\FolderService\bin\Release\FolderService.pdb
+C:\Users\takes\source\repos\FolderService\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.ProjectInstaller.resources
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.Service1.resources
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.csproj.GenerateResource.Cache
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.csproj.CoreCompileInputs.cache
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.exe
+C:\Users\takes\source\repos\FolderService\obj\Release\FolderService.pdb
