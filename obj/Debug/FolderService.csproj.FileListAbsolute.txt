@@ -8,13 +8,13 @@ C:\Users\takes\source\repos\FolderService\obj\Debug\FolderService.csproj.Generat
 C:\Users\takes\source\repos\FolderService\obj\Debug\FolderService.csproj.CoreCompileInputs.cache
 C:\Users\takes\source\repos\FolderService\obj\Debug\FolderService.exe
 C:\Users\takes\source\repos\FolderService\obj\Debug\FolderService.pdb
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.exe.config
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.exe
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.pdb
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.ProjectInstaller.resources
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.Service1.resources
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.csproj.GenerateResource.Cache
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.csproj.CoreCompileInputs.cache
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.exe
-C:\Users\takes\Source\Repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.pdb
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.exe.config
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.exe
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\bin\Debug\FolderService.pdb
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.ProjectInstaller.resources
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.Service1.resources
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.csproj.GenerateResource.Cache
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.csproj.CoreCompileInputs.cache
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.exe
+C:\Users\takes\source\repos\Noran Ultrasound File Watcher\obj\Debug\FolderService.pdb

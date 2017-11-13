@@ -24,8 +24,7 @@ namespace FolderService
 
         private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
         {
-            ServiceController sc = new ServiceController("Windows Automatic Start Service");
-            sc.Start();
+            
         }
     }
 }
